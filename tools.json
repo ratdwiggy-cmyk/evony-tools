@@ -1,0 +1,19 @@
+[
+{
+"title":"Evony Resource Advisor",
+"description":"Optimize resource gathering and production planning.",
+"url":"https://ratdwiggy-cmyk.github.io/evony-resource-advisor/",
+"category":"Resources",
+"status":"Live",
+"icon":"📦"
+},
+
+{
+"title":"Evony Prestige Tracker",
+"description":"Track prestige progression and growth.",
+"url":"https://ratdwiggy-cmyk.github.io/evony-prestige-tracker/",
+"category":"Player Tools",
+"status":"Live",
+"icon":"🏰"
+}
+]
