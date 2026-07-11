@@ -1,19 +1,38 @@
 [
-{
-"title":"Evony Resource Advisor",
-"description":"Optimize resource gathering and production planning.",
-"url":"https://ratdwiggy-cmyk.github.io/evony-resource-advisor/",
-"category":"Resources",
-"status":"Live",
-"icon":"📦"
-},
-
-{
-"title":"Evony Prestige Tracker",
-"description":"Track prestige progression and growth.",
-"url":"https://ratdwiggy-cmyk.github.io/evony-prestige-tracker/",
-"category":"Player Tools",
-"status":"Live",
-"icon":"🏰"
-}
+  {
+    "title": "Evony Resource Advisor",
+    "description": "Optimize resource gathering, production, and planning.",
+    "url": "https://ratdwiggy-cmyk.github.io/evony-resource-advisor/",
+    "category": "Resources",
+    "status": "Live",
+    "icon": "📦",
+    "version": "1.0"
+  },
+  {
+    "title": "Evony Prestige Tracker",
+    "description": "Track prestige growth and progression.",
+    "url": "https://ratdwiggy-cmyk.github.io/evony-prestige-tracker/",
+    "category": "Growth",
+    "status": "Live",
+    "icon": "🏰",
+    "version": "1.0"
+  },
+  {
+    "title": "Buff Calculator",
+    "description": "Calculate attack, defense, and march buffs.",
+    "url": "#",
+    "category": "Combat",
+    "status": "Coming Soon",
+    "icon": "⚔️",
+    "version": "Coming Soon"
+  },
+  {
+    "title": "Monarch Gear Planner",
+    "description": "Plan monarch equipment upgrades.",
+    "url": "#",
+    "category": "Planning",
+    "status": "Coming Soon",
+    "icon": "👑",
+    "version": "Coming Soon"
+  }
 ]

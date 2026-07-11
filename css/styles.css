@@ -3,40 +3,80 @@ body {
 margin:0;
 
 font-family:
-Arial, sans-serif;
+Segoe UI, Arial, sans-serif;
 
-background:#111827;
+background:
+linear-gradient(
+135deg,
+#0f172a,
+#1e293b
+);
 
 color:white;
 
+min-height:100vh;
+
 }
+
 
 
 header {
 
 text-align:center;
 
-padding:40px;
+padding:50px;
 
-background:#1f2937;
+background:
+rgba(0,0,0,.35);
 
 }
+
 
 
 h1 {
 
+font-size:55px;
+
 color:#d4af37;
 
-font-size:48px;
+margin-bottom:10px;
 
 }
+
+
+
+header p {
+
+font-size:20px;
+
+}
+
+
+
+#search {
+
+margin-top:25px;
+
+padding:15px;
+
+width:300px;
+
+border-radius:10px;
+
+border:none;
+
+font-size:16px;
+
+}
+
 
 
 main {
 
-padding:30px;
+padding:35px;
 
 }
+
 
 
 #tools-container {
@@ -44,62 +84,122 @@ padding:30px;
 display:grid;
 
 grid-template-columns:
-repeat(auto-fit,minmax(280px,1fr));
+repeat(
+auto-fit,
+minmax(280px,1fr)
+);
 
 gap:25px;
 
 }
 
 
+
 .tool-card {
 
-background:#18212f;
+
+background:
+rgba(255,255,255,.08);
+
 
 border:
 
 1px solid #d4af37;
 
-border-radius:15px;
+
+border-radius:18px;
+
 
 padding:25px;
 
+
 text-align:center;
 
+
+transition:.3s;
+
+
 }
+
 
 
 .tool-card:hover {
 
+transform:
+translateY(-8px);
+
+
 box-shadow:
-0 0 20px #d4af37;
+0 0 25px #d4af37;
+
 
 }
+
 
 
 .icon {
 
-font-size:50px;
+font-size:55px;
 
 }
 
 
+
+.category {
+
+
+color:#94a3b8;
+
+
+}
+
+
+
+.status {
+
+
+margin:15px;
+
+
+font-weight:bold;
+
+}
+
+
+
+.Live {
+
+color:#22c55e;
+
+}
+
+
+.Coming\ Soon {
+
+color:#f59e0b;
+
+}
+
+
+
 a {
 
-display:inline-block;
-
-padding:12px 25px;
 
 background:#d4af37;
 
 color:black;
 
-text-decoration:none;
+padding:12px 30px;
 
-border-radius:8px;
+border-radius:10px;
+
+text-decoration:none;
 
 font-weight:bold;
 
+
 }
+
 
 
 footer {
@@ -108,6 +208,6 @@ text-align:center;
 
 padding:30px;
 
-color:#aaa;
+color:#94a3b8;
 
 }
