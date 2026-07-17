@@ -14,7 +14,7 @@
     "url": "https://ratdwiggy-cmyk.github.io/evony-prestige-tracker/",
     "category": "Growth",
     "status": "Live",
-    "icon": "🏰",
+    "icon": "🏆",
     "version": "1.0"
   },
   {
@@ -25,5 +25,14 @@
     "status": "Live",
     "icon": "⚔️",
     "version": "2.0"
+  },
+  {
+    "title": "Evony Rally Coordinator",
+    "description": "Live alliance status board, join-code access, rally leadership tracking, and player availability.",
+    "url": "https://ratdwiggy-cmyk.github.io/evony-rally-coordinator/",
+    "category": "Alliance",
+    "status": "Live",
+    "icon": "🚩",
+    "version": "1.0"
   }
 ]
